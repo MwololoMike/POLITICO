@@ -1,0 +1,88 @@
+#myTitle{
+  background-color: rgb(65, 65, 65);
+  color: rgb(208, 157, 94) ;
+  font: large ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  padding: 3% ;
+}
+
+.topnav {
+    background-color: rgb(208, 157, 94) ;
+    padding: 1.9% ;
+}
+
+.topnav a.active {
+    background-color: rgb(230, 86, 150);
+    color: black;
+}
+
+.topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 8px 14px;
+    font-size: 14px;
+    background-color: black
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.dropdown-button {
+    position: relative;
+    display: block ;
+    float: right;
+}
+
+.dropdown-details {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 50px;
+    align-self: center;
+    color: white ;
+}
+
+.dropdown-details a {
+    color: white;
+    padding: 8px 14px;
+    text-decoration: none;
+    display: block ;
+}
+
+.dropdown-details a:hover {
+    background-color: black;
+    color: rgb(230, 86, 150)
+}
+
+.dropdown-button:hover .dropdown-details {
+    display: block;
+}
+body{
+    text-align: center;
+    background-color: rgb(65, 65, 65);
+}
+
+.form-container{
+    padding: 2%;
+}
+
+section{
+    width: 100%;
+    background-color: black ;
+    color:rgb(208, 157, 94) ;
+}
+a{
+    color:whitesmoke ;
+    background-color: black;
+
+}
+
+.page_bottom{
+    background-color: black ;
+    text-emphasis-color: white ;
+    color: aliceblue ;
+}
