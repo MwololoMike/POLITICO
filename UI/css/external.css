@@ -19,7 +19,7 @@
 .topnav a {
     float: right;
     color: white;
-    text-align: center;
+    text-align: auto;
     padding: 8px 14px;
     font-size: 14px;
     background-color: black
@@ -29,6 +29,7 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    float: right
 }
 
 .dropdown-button {
@@ -42,7 +43,7 @@ nav ul {
     position: absolute;
     background-color: black;
     min-width: 50px;
-    align-self: center;
+    align-self: auto;
     color: white ;
 }
 
