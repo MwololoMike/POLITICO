@@ -8,7 +8,7 @@
 
 .topnav {
     background-color: rgb(208, 157, 94) ;
-    padding: 2% ;
+    padding: 2%;
 }
 
 .topnav a.active {
@@ -117,7 +117,7 @@ a{
 }
 
 .card-user-profile {
-    box-shadow: 0 4px 8px 0 rgba(241, 236, 236, 0.2);
+    box-shadow: 0 4px 8px 0 rgb(255, 252, 252);
     transition: 0.3s;
     padding: 4%;
     border-radius: 5px;
@@ -126,5 +126,6 @@ a{
 
 .page_bottom{
     background-color: rgb(208, 157, 94);
-    color: black
+    color: black;
+    padding: 2%
     }
