@@ -8,7 +8,7 @@
 
 .topnav {
     background-color: rgb(208, 157, 94) ;
-    padding: 1.9% ;
+    padding: 2% ;
 }
 
 .topnav a.active {
@@ -17,12 +17,12 @@
 }
 
 .topnav a {
-    float: right;
-    color: white;
+    color: black;
     text-align: auto;
-    padding: 8px 14px;
-    font-size: 14px;
-    background-color: black
+    padding: 8px 10px;
+    font-size: 16px;
+    background-color:rgb(208, 157, 94);
+
 }
 
 nav ul {
@@ -41,10 +41,10 @@ nav ul {
 .dropdown-details {
     display: none;
     position: absolute;
-    background-color: black;
+    background-color: white;
     min-width: 50px;
     align-self: auto;
-    color: white ;
+    color: black
 }
 
 .dropdown-details a {
@@ -72,9 +72,9 @@ body{
 }
 
 section{
-    width: 100%;
     background-color: black ;
     color:rgb(208, 157, 94) ;
+    align-items: center
 }
 a{
     color:whitesmoke ;
@@ -82,8 +82,49 @@ a{
 
 }
 
-.page_bottom{
-    background-color: black ;
-    text-emphasis-color: white ;
-    color: aliceblue ;
+.card-position-center {
+    margin: auto;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+.card-position-top {
+    margin: auto;
+    position: 30px;
+    top: 8%;
+    width: 80%;
+
+}
+
+.card-position-relative {
+    margin: auto;
+    position: absolute;
+    top: 80%;
+    width: 80%;
+    margin: 5%;
+}
+
+/* Creates a card view */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(189, 184, 184, 0.2);
+    transition: 0.3s;
+    padding: 8%;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.card-user-profile {
+    box-shadow: 0 4px 8px 0 rgba(241, 236, 236, 0.2);
+    transition: 0.3s;
+    padding: 4%;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.page_bottom{
+    background-color: rgb(208, 157, 94);
+    color: black
+    }
