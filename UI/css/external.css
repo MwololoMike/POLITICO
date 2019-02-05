@@ -21,15 +21,7 @@
     text-align: auto;
     padding: 8px 10px;
     font-size: 16px;
-    background-color:rgb(208, 157, 94);
-
-}
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    float: right
+    background-color:rgb(230, 86, 150);
 }
 
 .dropdown-button {
@@ -130,10 +122,23 @@ a{
     padding: 2%
     }
 
-.parties{
-    float: left;
+#table-head{
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+#table-head td, #table-head th {
+        border: 1px solid rgb(230, 86, 150);
+        padding: 8px;
+      }
+
+#table-head tr:hover {background-color: rgb(230, 86, 150);
 }
 
-.parties{
-    float: right;
-}
+#table-head th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: rgb(208, 157, 94);
+        color: black;
+      }
