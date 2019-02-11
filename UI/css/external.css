@@ -18,10 +18,16 @@
 
 .topnav a {
     color: black;
-    text-align: auto;
+    text-align: center;
     padding: 8px 10px;
     font-size: 16px;
     background-color:rgb(230, 86, 150);
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: black;
+    color: rgb(230, 86, 150)
 }
 
 .dropdown-button {
@@ -61,12 +67,13 @@ body{
 
 .form-container{
     padding: 2%;
+    margin-top: 0%;
 }
 
 section{
     background-color: black ;
     color:rgb(208, 157, 94) ;
-    align-items: center
+    align-items: center;
 }
 a{
     color:whitesmoke ;
@@ -119,7 +126,7 @@ a{
 .page_bottom{
     background-color: rgb(208, 157, 94);
     color: black;
-    padding: 2%
+    padding: 2%;
     }
 
 #table-head{
