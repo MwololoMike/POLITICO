@@ -12,7 +12,7 @@
                 <nav>
                     <ul>
                         <div class="dropdown-button">
-                            <a href="#" class="dropdown-users">ACCOUNT </a>
+                            <a class="dropdown-users">ACCOUNT </a>
                                 <div class="dropdown-details">
                                     <a href="sign-in-admin.html">ADMIN</a>
                                     <a href="sign-in-politician.html">POLITICIAN</a>
@@ -24,15 +24,17 @@
             </div>
      <section>
           <div class="form-container">
-              <form>
+            <form>
              Email address<br>
               <input type="email" name="Email address"><br><br>
               Password<br>
               <input type="password" name="password"><br><br>
-              <a href="admin-dashboard.html">Sign in</a>
-              <p><a href="reset-password.html">Forgot password?</a></p>
-            </form>
-            </div>
+              <input type="button" onclick="location.href='admin-dashboard.html';" value="Sign in" />
+            </button><br><br>
+            <input type="button" onclick="location.href='reset-password.html';" value="Reset password" />
+        </button>
+    </form>
+        </div>
       </section>
 
     <div class="page_bottom">
